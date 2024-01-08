@@ -11,6 +11,9 @@ public class UniqueChars {
      * unless they are space characters.
      */
     public static String uniqueChars(String s) {
+        /*
+        # Feedback- -ans- is not clear from the name what is it and what you are trying to do. Maybe -response- or even -updatedString- are better words?
+        */
         String ans = "";
         for (int i = 0; i < s.length(); i++) {
             char currentChar = s.charAt(i);
