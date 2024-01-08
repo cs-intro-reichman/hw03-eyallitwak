@@ -68,6 +68,11 @@ public class Calendar1 {
 		return (divBy4 && !divBy100) || divBy400;
 	}
 
+
+	/*
+ 		#Feedback: the comments are very clear! great.
+	*/
+	
 	// Returns the number of days in the given month and year.
 	// April, June, September, and November have 30 days each.
 	// February has 28 days in a common year, and 29 days in a leap year.
